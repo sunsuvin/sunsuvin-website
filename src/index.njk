@@ -1,0 +1,72 @@
+---
+layout: base.njk
+title: Home
+description: Sunsuvin pairs entrepreneurs and operators with mentors who have actually
+  done the work — starting with hands-on operations and automation mentorship.
+---
+<header class="hero">
+  <div class="container hero-inner">
+    <span class="eyebrow">{{ pages.home.hero_eyebrow }}</span>
+    <h1>{{ pages.home.hero_headline }}</h1>
+    <p class="lede">{{ pages.home.hero_lede }}</p>
+    <a href="/contact/" class="btn btn-primary">Request Mentorship</a>
+    <a href="/services/" class="btn btn-ghost">Explore Services</a>
+    <p class="hero-signoff">{{ pages.home.hero_signoff }}</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{{ pages.home.why_eyebrow }}</span>
+      <h2>{{ pages.home.why_heading }}</h2>
+      <p>{{ pages.home.why_subheading }}</p>
+    </div>
+    <div class="grid-3">
+      {% for card in pages.home.why_cards %}
+      <div class="card">
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{{ pages.home.services_eyebrow }}</span>
+      <h2>{{ pages.home.services_heading }}</h2>
+    </div>
+    <div class="grid-3">
+      {% for card in pages.home.services_cards %}
+      <div class="card">
+        <h3>{{ card.title | safe }}</h3>
+        <p>{{ card.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{{ pages.home.case_study_eyebrow }}</span>
+      <h2>{{ pages.home.case_study_heading }}</h2>
+    </div>
+    <div class="testimonial">
+      <p style="margin-bottom:20px; color:var(--ink);">{{ pages.home.case_study_body | safe  }}</p>
+      <cite>{{ pages.home.case_study_citation | safe  }}</cite>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>{{ pages.home.cta_heading }}</h2>
+    <p>{{ pages.home.cta_body }}</p>
+    <a href="/contact/" class="btn btn-primary">Request Mentorship</a>
+  </div>
+</section>

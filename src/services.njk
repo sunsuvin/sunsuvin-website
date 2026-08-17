@@ -1,0 +1,75 @@
+---
+layout: base.njk
+permalink: /services/
+title: Services
+description: How Sunsuvin mentors entrepreneurs and operators — strategy and systems,
+  automation and digital transformation, and 1:1 founder advisory.
+---
+<header class="page-hero">
+  <div class="container">
+    <h1>{{ pages.services.hero_heading }}</h1>
+    <p>{{ pages.services.hero_body }}</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="grid-3">
+      {% for card in pages.services.service_cards %}
+      <div class="card">
+        <h3>{{ card.title | safe }}</h3>
+        <p>{{ card.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{{ pages.services.journey_eyebrow }}</span>
+      <h2>{{ pages.services.journey_heading }}</h2>
+    </div>
+
+    <div class="journey">
+      <svg class="journey-path" viewBox="0 0 1200 160" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M50,90 C 250,10 350,170 600,90 C 850,10 950,170 1150,90"
+              stroke="#F0800F" stroke-width="2" stroke-dasharray="7 9"
+              fill="none" stroke-linecap="round"/>
+        <circle cx="50" cy="90" r="6" fill="#F0800F"/>
+        <circle cx="600" cy="90" r="6" fill="#F0800F"/>
+        <circle cx="1150" cy="90" r="6" fill="#F0800F"/>
+      </svg>
+      <div class="journey-steps">
+        {% for step in pages.services.journey_steps %}
+        <div class="journey-step">
+          <span class="stage">{{ step.stage }}</span>
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.body }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{{ pages.services.practice_eyebrow }}</span>
+      <h2>{{ pages.services.practice_heading }}</h2>
+    </div>
+    <div class="testimonial">
+      <p style="margin-bottom:0; color:var(--ink);">{{ pages.services.practice_body | safe  }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>{{ pages.services.cta_heading }}</h2>
+    <p>{{ pages.services.cta_body }}</p>
+    <a href="/contact/" class="btn btn-primary">Request Mentorship</a>
+  </div>
+</section>

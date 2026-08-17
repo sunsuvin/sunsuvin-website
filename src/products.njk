@@ -1,0 +1,46 @@
+---
+layout: base.njk
+permalink: /products/
+title: Products
+description: Sunsuvin's mentorship offerings — from a focused audit to ongoing 1:1
+  mentorship for founders and operators.
+---
+<header class="page-hero">
+  <div class="container">
+    <h1>{{ pages.products.hero_heading }}</h1>
+    <p>{{ pages.products.hero_body }}</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="grid-3">
+      {% for item in pages.products.offerings %}
+      <div class="card">
+        <h3>{{ item.title | safe }}</h3>
+        <p>{{ item.body }}</p>
+        <p class="hint" style="margin-top:16px;">{{ item.best_for }}</p>
+        <a href="/contact/" class="btn btn-dark" style="margin-top:12px;">Ask about this</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container" style="max-width:700px;">
+    <div class="section-head" style="margin-bottom:24px;">
+      <span class="eyebrow">{{ pages.products.pricing_eyebrow }}</span>
+      <h2>{{ pages.products.pricing_heading }}</h2>
+    </div>
+    <p class="center">{{ pages.products.pricing_body }}</p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>{{ pages.products.cta_heading }}</h2>
+    <p>{{ pages.products.cta_body }}</p>
+    <a href="/contact/" class="btn btn-primary">Request Mentorship</a>
+  </div>
+</section>

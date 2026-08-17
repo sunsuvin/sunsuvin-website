@@ -1,0 +1,11 @@
+{
+  "nav": [
+    { "label": "Home", "url": "/" },
+    { "label": "About Us", "url": "/about/" },
+    { "label": "Services", "url": "/services/" },
+    { "label": "Products", "url": "/products/" }
+  ],
+  "contact_email": "hello@sunsuvin.com",
+  "location": "Bengaluru, India",
+  "footer_blurb": "Mentorship for entrepreneurs and operators — grounded in real experience, not borrowed frameworks."
+}

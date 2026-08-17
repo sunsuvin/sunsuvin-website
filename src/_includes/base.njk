@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }} — Sunsuvin</title>
+<meta name="description" content="{{ description }}">
+<link rel="icon" type="image/svg+xml" href="/assets/sunsuvin-favicon.svg">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="brand"><img src="/assets/sunsuvin-logo.png" alt="Sunsuvin" class="brand-logo"></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      {% for item in site.nav %}
+      <li><a href="{{ item.url }}" {% if item.url == page.url %}aria-current="page"{% endif %}>{{ item.label }}</a></li>
+      {% endfor %}
+      <li><a href="/contact/" class="nav-cta" {% if page.url == "/contact/" %}aria-current="page"{% endif %}>Request Mentorship</a></li>
+    </ul>
+  </div>
+</nav>
+
+{{ content | safe }}
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="/" class="brand"><img src="/assets/sunsuvin-nav-logo-inverse.svg" alt="Sunsuvin" class="brand-logo"></a>
+        <p style="margin-top:16px; max-width:320px; color:rgba(247,239,225,0.65); font-size:0.9rem;">{{ site.footer_blurb }}</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        {% for item in site.nav %}<a href="{{ item.url }}">{{ item.label }}</a>{% endfor %}
+        <a href="/contact/">Contact</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+        <a href="/contact/">Request Mentorship &rarr;</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Sunsuvin. All rights reserved.</span>
+      <span>{{ site.location }}</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/script.js"></script>
+</body>
+</html>

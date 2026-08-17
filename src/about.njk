@@ -1,0 +1,47 @@
+---
+layout: base.njk
+permalink: /about/
+title: About Us
+description: Sunsuvin exists because good mentorship is hard to find — and even harder
+  to trust. Here's why it was built, and who it's for.
+---
+<header class="page-hero">
+  <div class="container">
+    <h1>{{ pages.about.hero_heading }}</h1>
+    <p>{{ pages.about.hero_body }}</p>
+  </div>
+</header>
+
+<section>
+  <div class="container" style="max-width:760px;">
+    <h2>{{ pages.about.section1_heading }}</h2>
+    {{ pages.about.section1_body | markdownify | safe  }}
+
+    <h2>{{ pages.about.section2_heading }}</h2>
+    {{ pages.about.section2_body | markdownify | safe  }}
+
+    <h2>{{ pages.about.section3_heading }}</h2>
+    <p>{{ pages.about.section3_body }}</p>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{{ pages.about.proof_eyebrow }}</span>
+      <h2>{{ pages.about.proof_heading }}</h2>
+    </div>
+    <div class="testimonial">
+      <p style="margin-bottom:20px; color:var(--ink);">{{ pages.about.proof_body | safe  }}</p>
+      <cite>See how this engagement works &rarr; <a href="/services/" style="color:var(--sage); text-decoration:underline;">Services</a></cite>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>{{ pages.about.cta_heading }}</h2>
+    <p>{{ pages.about.cta_body }}</p>
+    <a href="/contact/" class="btn btn-primary">Request Mentorship</a>
+  </div>
+</section>

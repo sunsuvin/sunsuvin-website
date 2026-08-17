@@ -1,0 +1,148 @@
+backend:
+  name: github
+  repo: sunsuvin/sunsuvin-website
+  branch: main
+  base_url: https://YOUR-OAUTH-WORKER.workers.dev
+  auth_endpoint: auth
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "home"
+    label: "Home page"
+    files:
+      - file: "src/_data/pages/home.json"
+        label: "Home page content"
+        name: "home"
+        fields:
+          - { label: "Hero eyebrow", name: "hero_eyebrow", widget: "string" }
+          - { label: "Hero headline", name: "hero_headline", widget: "string" }
+          - { label: "Hero intro text", name: "hero_lede", widget: "text" }
+          - { label: "Hero sign-off", name: "hero_signoff", widget: "string" }
+          - { label: "Why section eyebrow", name: "why_eyebrow", widget: "string" }
+          - { label: "Why section heading", name: "why_heading", widget: "string" }
+          - { label: "Why section subheading", name: "why_subheading", widget: "text" }
+          - label: "Why cards"
+            name: "why_cards"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - { label: "Services teaser eyebrow", name: "services_eyebrow", widget: "string" }
+          - { label: "Services teaser heading", name: "services_heading", widget: "string" }
+          - label: "Services cards"
+            name: "services_cards"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - { label: "Case study eyebrow", name: "case_study_eyebrow", widget: "string" }
+          - { label: "Case study heading", name: "case_study_heading", widget: "string" }
+          - { label: "Case study body (HTML allowed)", name: "case_study_body", widget: "text" }
+          - { label: "Case study citation", name: "case_study_citation", widget: "string" }
+          - { label: "CTA heading", name: "cta_heading", widget: "string" }
+          - { label: "CTA body", name: "cta_body", widget: "text" }
+
+  - name: "about"
+    label: "About page"
+    files:
+      - file: "src/_data/pages/about.json"
+        label: "About page content"
+        name: "about"
+        fields:
+          - { label: "Hero heading", name: "hero_heading", widget: "string" }
+          - { label: "Hero body", name: "hero_body", widget: "text" }
+          - { label: "Section 1 heading", name: "section1_heading", widget: "string" }
+          - { label: "Section 1 body (Markdown, blank line = new paragraph)", name: "section1_body", widget: "text" }
+          - { label: "Section 2 heading", name: "section2_heading", widget: "string" }
+          - { label: "Section 2 body (Markdown, blank line = new paragraph)", name: "section2_body", widget: "text" }
+          - { label: "Section 3 heading", name: "section3_heading", widget: "string" }
+          - { label: "Section 3 body", name: "section3_body", widget: "text" }
+          - { label: "Proof eyebrow", name: "proof_eyebrow", widget: "string" }
+          - { label: "Proof heading", name: "proof_heading", widget: "string" }
+          - { label: "Proof body (HTML allowed)", name: "proof_body", widget: "text" }
+          - { label: "CTA heading", name: "cta_heading", widget: "string" }
+          - { label: "CTA body", name: "cta_body", widget: "text" }
+
+  - name: "services"
+    label: "Services page"
+    files:
+      - file: "src/_data/pages/services.json"
+        label: "Services page content"
+        name: "services"
+        fields:
+          - { label: "Hero heading", name: "hero_heading", widget: "string" }
+          - { label: "Hero body", name: "hero_body", widget: "text" }
+          - label: "Service cards"
+            name: "service_cards"
+            widget: "list"
+            fields:
+              - { label: "Title (HTML allowed)", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - { label: "Journey eyebrow", name: "journey_eyebrow", widget: "string" }
+          - { label: "Journey heading", name: "journey_heading", widget: "string" }
+          - label: "Journey steps (keep to exactly 3 — the diagram is drawn for 3)"
+            name: "journey_steps"
+            widget: "list"
+            fields:
+              - { label: "Stage label", name: "stage", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - { label: "Practice eyebrow", name: "practice_eyebrow", widget: "string" }
+          - { label: "Practice heading", name: "practice_heading", widget: "string" }
+          - { label: "Practice body (HTML allowed)", name: "practice_body", widget: "text" }
+          - { label: "CTA heading", name: "cta_heading", widget: "string" }
+          - { label: "CTA body", name: "cta_body", widget: "text" }
+
+  - name: "products"
+    label: "Products page"
+    files:
+      - file: "src/_data/pages/products.json"
+        label: "Products page content"
+        name: "products"
+        fields:
+          - { label: "Hero heading", name: "hero_heading", widget: "string" }
+          - { label: "Hero body", name: "hero_body", widget: "text" }
+          - label: "Offerings"
+            name: "offerings"
+            widget: "list"
+            fields:
+              - { label: "Title (HTML allowed)", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - { label: "\"Best for\" line", name: "best_for", widget: "string" }
+          - { label: "Pricing note eyebrow", name: "pricing_eyebrow", widget: "string" }
+          - { label: "Pricing note heading", name: "pricing_heading", widget: "string" }
+          - { label: "Pricing note body", name: "pricing_body", widget: "text" }
+          - { label: "CTA heading", name: "cta_heading", widget: "string" }
+          - { label: "CTA body", name: "cta_body", widget: "text" }
+
+  - name: "contact"
+    label: "Contact page"
+    files:
+      - file: "src/_data/pages/contact.json"
+        label: "Contact page content"
+        name: "contact"
+        fields:
+          - { label: "Hero heading", name: "hero_heading", widget: "string" }
+          - { label: "Hero body", name: "hero_body", widget: "text" }
+          - { label: "Email section heading", name: "email_heading", widget: "string" }
+          - { label: "Email line (before address)", name: "email_body_before", widget: "string" }
+          - { label: "Email line (after address)", name: "email_body_after", widget: "string" }
+
+  - name: "site"
+    label: "Site-wide settings"
+    files:
+      - file: "src/_data/site.json"
+        label: "Navigation, footer, contact info"
+        name: "site"
+        fields:
+          - label: "Navigation menu"
+            name: "nav"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+          - { label: "Contact email", name: "contact_email", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Footer tagline", name: "footer_blurb", widget: "text" }

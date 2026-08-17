@@ -1,0 +1,42 @@
+{
+  "hero_heading": "How Sunsuvin mentors",
+  "hero_body": "Three areas of focus, one way of working — close enough to your business to give advice you can actually use.",
+  "service_cards": [
+    {
+      "title": "Strategy &amp; Systems Mentorship",
+      "body": "For founders and leaders untangling how the business actually runs — organizational structure, decision rights, and the operating systems that hold everything together as headcount and complexity grow."
+    },
+    {
+      "title": "Automation &amp; Digital Transformation Mentorship",
+      "body": "Hands-on guidance on where AI, automation, and low-code tools genuinely reduce manual work and cost — and just as importantly, where they'd be a waste of budget right now."
+    },
+    {
+      "title": "Founder Sounding Board",
+      "body": "Regular 1:1 conversations for the decisions that are hard to make alone — vendor calls, hiring calls, priority calls — pressure-tested by someone who has made similar ones."
+    }
+  ],
+  "journey_eyebrow": "How an engagement runs",
+  "journey_heading": "Every mentorship relationship follows the same path",
+  "journey_steps": [
+    {
+      "stage": "First — Understand",
+      "title": "A real look at where you're stuck",
+      "body": "Before any advice, an honest conversation about what's actually happening in your business — not the pitch-deck version."
+    },
+    {
+      "stage": "Then — Untangle",
+      "title": "Working sessions, not workshops",
+      "body": "Regular, focused sessions on the specific decisions and systems in front of you — reviewed and refined as your situation changes."
+    },
+    {
+      "stage": "Finally — Build",
+      "title": "Systems you can run without us",
+      "body": "The goal of every engagement is a business that runs on judgment your team has built, not dependence on ongoing mentorship."
+    }
+  ],
+  "practice_eyebrow": "In practice",
+  "practice_heading": "What this looks like at Nikitha Build-Tech",
+  "practice_body": "The Nikitha Build-Tech engagement runs on Strategy &amp; Systems and Automation &amp; Digital Transformation mentorship together — working through ERP rollout decisions, budget and reporting workflows, and where automation genuinely removes manual work across their Tumkur, Davangere, and Mudhol operations.",
+  "cta_heading": "Which of these fits where you are right now?",
+  "cta_body": "Tell us and we'll shape the first conversation around it."
+}

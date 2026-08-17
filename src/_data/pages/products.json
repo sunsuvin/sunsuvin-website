@@ -1,0 +1,26 @@
+{
+  "hero_heading": "Ways to work with Sunsuvin",
+  "hero_body": "Mentorship packaged into a few clear formats — so you know what you're signing up for before the first conversation.",
+  "offerings": [
+    {
+      "title": "Operations &amp; Automation Audit",
+      "body": "A focused, time-boxed review of how your operations and systems currently run — where manual work is costing you time, and where automation would actually pay off. Ends with a clear, prioritized set of recommendations.",
+      "best_for": "Best for: teams who need clarity before committing to a bigger change."
+    },
+    {
+      "title": "Ongoing 1:1 Mentorship",
+      "body": "Regular working sessions over an extended period — for founders and leaders who want a consistent sounding board as they make strategy, systems, and hiring decisions in real time.",
+      "best_for": "Best for: founders in an active build or growth phase."
+    },
+    {
+      "title": "Automation Implementation Mentorship",
+      "body": "Hands-on guidance while your team actually builds and rolls out an automation, ERP, or digital transformation initiative — not just advice from the sidelines, but a mentor staying close through execution.",
+      "best_for": "Best for: teams mid-implementation who need an experienced second opinion."
+    }
+  ],
+  "pricing_eyebrow": "A note on pricing",
+  "pricing_heading": "Every engagement is scoped individually",
+  "pricing_body": "Sunsuvin doesn't run fixed-price packages — the right format and cadence depends on what you're working through. Request mentorship below and we'll recommend which of these fits, along with scope and pricing, on a first call.",
+  "cta_heading": "Not sure which format fits?",
+  "cta_body": "That's exactly what the first conversation is for."
+}
