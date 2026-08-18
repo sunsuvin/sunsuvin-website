@@ -12,6 +12,27 @@ description: Sunsuvin exists because good mentorship is hard to find — and eve
   </div>
 </header>
 
+<section class="section-alt">
+  <div class="container">
+    <div class="grid-2" style="align-items:start; gap:48px;">
+      <div>
+        <span class="eyebrow">{{ pages.about.mentor_eyebrow }}</span>
+        <h2 style="margin-bottom:2px;">{{ pages.about.mentor_name }}</h2>
+        <p style="color:var(--ink-soft); font-weight:600; margin-top:0;">{{ pages.about.mentor_title }}</p>
+        <p>{{ pages.about.mentor_bio }}</p>
+      </div>
+      <div class="card">
+        <h3>Credentials</h3>
+        <ul class="credentials-list">
+          {% for item in pages.about.mentor_credentials %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="container" style="max-width:760px;">
     <h2>{{ pages.about.section1_heading }}</h2>

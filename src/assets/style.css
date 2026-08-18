@@ -364,6 +364,29 @@ section { padding: 80px 0; }
   display: block;
 }
 
+/* ---------- Credentials list ---------- */
+.credentials-list {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+.credentials-list li {
+  padding: 10px 0 10px 26px;
+  position: relative;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+.credentials-list li:last-child { border-bottom: none; }
+.credentials-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  color: var(--sage);
+  font-weight: 700;
+}
+
 /* ---------- Testimonial / case study ---------- */
 .testimonial {
   background: var(--sage-soft);
