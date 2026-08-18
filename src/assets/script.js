@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Replace this with your deployed Web App URL
 // after following DEPLOY_INSTRUCTIONS.md
 // ============================================
-const SUNSUVIN_ENDPOINT = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+const SUNSUVIN_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyDokbo9HBgaAZcUfws-FbilHkJf342kcHFWO3TZiA3eAZrdtzr6ll0SLNmEh3e3R25RA/exec';
 
 async function handleMentorshipForm(form, statusEl) {
   const formData = new FormData(form);
