@@ -2,7 +2,7 @@ backend:
   name: github
   repo: sunsuvin/sunsuvin-website
   branch: main
-  base_url: https://YOUR-OAUTH-WORKER.workers.dev
+  base_url: https://sunsuvin-cms-auth.sunsuvin-apps.workers.dev
   auth_endpoint: auth
 
 media_folder: "src/assets/uploads"
