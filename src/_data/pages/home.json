@@ -1,26 +1,4 @@
 {
-  "hero_eyebrow": "A note from Sunsuvin",
-  "hero_headline": "Every founder needs someone who has already walked the road.",
-  "hero_lede": "Sunsuvin is a mentorship practice for entrepreneurs and operators — built on the belief that the fastest way to grow isn't more information, it's the right person in your corner who has actually built, broken, and fixed what you're facing now.",
-  "hero_signoff": "— Sunsuvin",
-  "why_eyebrow": "Why Sunsuvin",
-  "why_heading": "Mentorship grounded in real operating experience",
-  "why_subheading": "Not frameworks borrowed from a slide deck. Guidance shaped by actually running operations, budgets, and technology decisions inside a real business.",
-  "why_cards": [
-    {
-      "title": "Hands-on, not theoretical",
-      "body": "Mentorship shaped by real budgets, real vendors, and real deadlines — not case studies from someone else's company."
-    },
-    {
-      "title": "One relationship at a time",
-      "body": "Sunsuvin works with a deliberately small number of founders and teams, so every engagement gets real attention, not a cohort schedule."
-    },
-    {
-      "title": "Industry-specific, not generic",
-      "body": "Guidance rooted in specific sectors — starting with industrial manufacturing and operations — rather than one-size-fits-all startup advice."
-    }
-  ],
-  "services_eyebrow": "What we cover",
   "services_heading": "Three ways Sunsuvin can walk with you",
   "services_cards": [
     {
@@ -37,9 +15,31 @@
     }
   ],
   "case_study_eyebrow": "Case study",
-  "case_study_heading": "Mentoring operations automation at Nikitha Build-Tech",
-  "case_study_body": "Sunsuvin's founding engagement is with <strong>Nikitha Build-Tech</strong>, a Bengaluru-based pre-engineered building manufacturer with plants across Karnataka. Working directly with their IT leadership, Sunsuvin mentors the automation of core operations — from ERP rollout to budget and reporting workflows — turning manual, spreadsheet-driven processes into systems the team can trust and scale.",
+  "hero_eyebrow": "A note from Dr. Srikanth Kulkarni, the mentor.",
+  "case_study_body": "Sunsuvin's founding engagement is with the <strong>Walmart Vriddhi Program</strong>.  I have mentored Indian MSME and e-commerce entrepreneurs in building and scaling their businesses on digital marketplaces, particularly Flipkart. Through personalized 1:1 mentoring and group sessions which helped entrepreneurs identify business bottlenecks and develop practical solutions across product selection, listing optimization, pricing, keywords, product images, advertising, marketplace visibility, profitability, inventory, returns, logistics, brand approval and seller-support issues. My approach goes beyond solving immediate problems—I focus on teaching entrepreneurs how to understand marketplace dynamics, interpret business metrics and make better data-driven decisions independently. The mentoring helped bridge the gap between traditional business practices and digital commerce, enabling entrepreneurs to move from guesswork to structured decision-making and from simply listing products to strategically building sustainable online businesses.",
+  "services_eyebrow": "What we cover",
+  "why_heading": "Mentorship grounded in real operating experience",
+  "why_cards": [
+    {
+      "title": "Hands-on, not theoretical",
+      "body": "Mentorship shaped by real budgets, real vendors, and real deadlines — not case studies from someone else's company."
+    },
+    {
+      "title": "One relationship at a time",
+      "body": "Sunsuvin works with a deliberately small number of founders and teams, so every engagement gets real attention, not a cohort schedule."
+    },
+    {
+      "title": "Industry-specific, not generic",
+      "body": "Guidance rooted in specific sectors — starting with industrial manufacturing and operations — rather than one-size-fits-all startup advice."
+    }
+  ],
   "case_study_citation": "Ongoing engagement — Operations &amp; Automation Mentorship",
+  "hero_signoff": "— Dr. Srikanth Kulkarni",
+  "cta_body": "Tell us where you're stuck and what you're building. We'll get back to you within two business days.",
+  "why_eyebrow": "Why Sunsuvin",
   "cta_heading": "Ready to build with a guide who's done it?",
-  "cta_body": "Tell us where you're stuck and what you're building. We'll get back to you within two business days."
+  "hero_headline": "Every founder needs someone who has already walked the road. ",
+  "why_subheading": "Not frameworks borrowed from a slide deck. Guidance shaped by actually running operations, budgets, and technology decisions inside a real business.",
+  "case_study_heading": "Mentoring E-commerce Entrepreneurs Through the Walmart Vriddhi Program",
+  "hero_lede": "Sunsuvin is a mentorship program for entrepreneurs and individuals — built on the belief that the fastest way to grow isn't more information, it's the right person in your corner who has actually built, broken, and fixed what you're facing now."
 }
